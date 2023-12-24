@@ -1,5 +1,8 @@
-## Setup
+## Setting-up Virtual Environment
+
 Let's set-up a project while separating its dependencies from other *Python* projects on the target machine.
+
+
 
 ### 1. Installing Virtual Environment
 
@@ -12,6 +15,8 @@ Let's check the version:
 ```
 virtualenv --version
 ```
+
+
 
 ### 2. Creating Virtual Environment
 
@@ -35,6 +40,8 @@ Let's create Virtual Environment in *venv* folder inside this folder (commonly *
 virtualenv venv
 ```
 
+
+
 ### 3. Activating / Deactivating Virtual Environments
 
 Now that our virtual environment has been setup, let's activate it:
@@ -52,6 +59,7 @@ venv\Scripts\deactivate
 ```
 
 
+
 ### 4. Installing Dependencies
 
 Let's first activate our Virtual Environment before installing *Python* dependencies:
@@ -67,6 +75,7 @@ pip install django
 ```
 
 
+
 ### 5. Creating Dependencies File
 
 It's a general practice to tell others about the dependencies that we are using. Fortunately, Virtual Environment makes it quite easy:
@@ -74,3 +83,6 @@ It's a general practice to tell others about the dependencies that we are using.
 ```
 pip freeze > requirements.txt
 ```
+
+
+
