@@ -56,6 +56,28 @@ venv\Scripts\deactivate
 ```
 
 
+### 4. Installing Dependencies
+
+Let's first activate our Virtual Environment before installing *Python* dependencies:
+
+```
+venv\Scripts\activate
+```
+
+Now, let's install django:
+
+```
+pip install django
+```
+
+
+### 5. Creating Dependencies File
+
+It's a general practice to tell others about the dependencies that we are using. Fortunately, Virtual Environment makes it quite easy:
+
+```
+pip freeze > requirements.txt
+```
 
 
 
