@@ -39,6 +39,24 @@ Let's create Virtual Environment in *venv* folder inside this folder (commonly *
 virtualenv venv
 ```
 
+### 3. Activating / Deactivating Virtual Environments
+
+Now that our virtual environment has been setup, let's activate it:
+
+```
+venv\Scripts\activate
+```
+
+> ***Note:*** The created folders might be different on different OS environments. Therefore, for using commands, you might have to use *source <script-name>* on a Unix/Linux-based OS.
+
+We can deactivate it by using:
+
+```
+venv\Scripts\deactivate
+```
+
+
+
 
 
 
