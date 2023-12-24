@@ -3,11 +3,11 @@ This project simply outlines different aspects of working with [*Django*](https:
 
 
 ## Setup
-For starting up a project, let's separate its dependencies through Python Virtual Environments.
+Let's set-up a project while separating its dependencies from other *Python* projects on the target machine.
 
-### 1. Setting-up Virtual Environment
+### 1. Installing Virtual Environment
 
-Install the Virtual Environment package:
+Let's use ***pip*** to install the Virtual Environment package:
 ```
 pip install virtualenv
 ```
@@ -16,6 +16,8 @@ Let's check the version:
 ```
 virtualenv --version
 ```
+
+### 2. Creating Virtual Environment
 
 
 
